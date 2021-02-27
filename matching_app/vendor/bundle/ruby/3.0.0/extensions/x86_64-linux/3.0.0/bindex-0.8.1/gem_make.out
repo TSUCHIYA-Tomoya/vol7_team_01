@@ -1,0 +1,15 @@
+current directory: /home/tsuchiya-t/Documents/vol7_team_01/matching_app/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+/home/tsuchiya-t/.rbenv/versions/3.0.0/bin/ruby -I /home/tsuchiya-t/.rbenv/versions/3.0.0/lib/ruby/site_ruby/3.0.0 -r ./siteconf20210227-16946-kxq806.rb extconf.rb
+creating Makefile
+
+current directory: /home/tsuchiya-t/Documents/vol7_team_01/matching_app/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= clean
+
+current directory: /home/tsuchiya-t/Documents/vol7_team_01/matching_app/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\=
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/tsuchiya-t/Documents/vol7_team_01/matching_app/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20210227-16946-icdtl8/skiptrace/internal

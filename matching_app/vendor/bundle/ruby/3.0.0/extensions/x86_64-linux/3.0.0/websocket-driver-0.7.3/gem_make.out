@@ -1,0 +1,15 @@
+current directory: /home/tsuchiya-t/Documents/vol7_team_01/matching_app/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+/home/tsuchiya-t/.rbenv/versions/3.0.0/bin/ruby -I /home/tsuchiya-t/.rbenv/versions/3.0.0/lib/ruby/site_ruby/3.0.0 -r ./siteconf20210227-16946-jbzuqu.rb extconf.rb
+creating Makefile
+
+current directory: /home/tsuchiya-t/Documents/vol7_team_01/matching_app/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make DESTDIR\= clean
+
+current directory: /home/tsuchiya-t/Documents/vol7_team_01/matching_app/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make DESTDIR\=
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/tsuchiya-t/Documents/vol7_team_01/matching_app/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20210227-16946-ruhapx

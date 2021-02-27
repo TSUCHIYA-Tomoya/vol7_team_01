@@ -1,0 +1,15 @@
+current directory: /home/tsuchiya-t/Documents/vol7_team_01/matching_app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.7.2/ext/bootsnap
+/home/tsuchiya-t/.rbenv/versions/3.0.0/bin/ruby -I /home/tsuchiya-t/.rbenv/versions/3.0.0/lib/ruby/site_ruby/3.0.0 -r ./siteconf20210227-16946-5sh29r.rb extconf.rb
+creating Makefile
+
+current directory: /home/tsuchiya-t/Documents/vol7_team_01/matching_app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.7.2/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /home/tsuchiya-t/Documents/vol7_team_01/matching_app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.7.2/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/tsuchiya-t/Documents/vol7_team_01/matching_app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.7.2/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20210227-16946-qrxdaj/bootsnap
