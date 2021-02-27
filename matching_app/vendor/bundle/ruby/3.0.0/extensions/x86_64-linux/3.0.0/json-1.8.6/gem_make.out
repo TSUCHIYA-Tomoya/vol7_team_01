@@ -1,0 +1,13 @@
+current directory: /home/tsuchiya-t/Documents/vol7_team_01/matching_app/vendor/bundle/ruby/3.0.0/gems/json-1.8.6/ext/json
+/home/tsuchiya-t/.rbenv/versions/3.0.0/bin/ruby -I /home/tsuchiya-t/.rbenv/versions/3.0.0/lib/ruby/site_ruby/3.0.0 -r ./siteconf20210227-58157-hjtnbn.rb extconf.rb
+creating Makefile
+
+current directory: /home/tsuchiya-t/Documents/vol7_team_01/matching_app/vendor/bundle/ruby/3.0.0/gems/json-1.8.6/ext/json
+make DESTDIR\= clean
+
+current directory: /home/tsuchiya-t/Documents/vol7_team_01/matching_app/vendor/bundle/ruby/3.0.0/gems/json-1.8.6/ext/json
+make DESTDIR\=
+make: 'all' に対して行うべき事はありません.
+
+current directory: /home/tsuchiya-t/Documents/vol7_team_01/matching_app/vendor/bundle/ruby/3.0.0/gems/json-1.8.6/ext/json
+make DESTDIR\= install
