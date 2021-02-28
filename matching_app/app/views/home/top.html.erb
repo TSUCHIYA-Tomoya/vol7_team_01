@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>技育祭マッチングサービスtop</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- jQuery読み込み -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <br>
+    <h1 style="border-left: 15px solid #89c3eb;padding: 7px;background: #bbd7ea;">技育祭マッチングサービスへようこそ！</h1>
+    <br>
+    <p>このサービスでは、以下の2つのことができます。</p>
+    <ol type="1">
+      <li style="border-left: 15px solid #c3d825;padding: 7px;background: #e3e5d0;">あなたの興味に沿った技育祭の講演会プログラムを提案します</li>
+      <li style="border-left: 15px solid #c3d825;padding: 7px;background: #e3e5d0;">あなたと興味の近い技育祭参加者のTwitterアカウントを提示します</li><br>
+    </ol>
+    <br>
+    <h1 style="border-left: 15px solid #89c3eb;padding: 7px;background: #bbd7ea;">次のうちから、興味のあるものを選んでください。</h1>
+    <%=form_tag("/create") do%>
+    <p><u>＜プログラミングスキルなど＞</u></p>
+    <input type="checkbox" name="interest[]" value="ruby">Ruby　
+    <input type="checkbox" name="interest[]" value="go">Go　
+    <input type="checkbox" name="interest[]" value="github">GitHub　
+    <input type="checkbox" name="interest[]" value="docker">Docker　
+    <input type="checkbox" name="interest[]" value="ai">AI　
+    <input type="checkbox" name="interest[]" value="machinelearning">機械学習　
+    <input type="checkbox" name="interest[]" value="society5.0">Society5.0　
+    <input type="checkbox" name="interest[]" value="manufacturing">モノづくり　
+    <input type="checkbox" name="interest[]" value="largescalesystem">大規模システム　
+    <input type="checkbox" name="interest[]" value="competitiveprogramming">競技プログラミング　
+    <input type="checkbox" name="interest[]" value="supercomputer">スーパーコンピュータ富岳　
+    <input type="checkbox" name="interest[]" value="elasticsearch">分散検索・分析エンジンElasticsearch　
+    <input type="checkbox" name="interest[]" value="serverside">サーバーサイドパフォーマンスチューニング
+    <br><br><br>
+
+    <p><u>＜キャリア形成＞</u></p>
+    <input type="checkbox" name="interest[]" value="careerdevelopment">キャリア形成全般　
+    <input type="checkbox" name="interest[]" value="web">Web業界　
+    <input type="checkbox" name="interest[]" value="infla">インフラ業界　
+    <input type="checkbox" name="interest[]" value="game">ゲーム業界　
+    <input type="checkbox" name="interest[]" value="cyber">サイバー技術　
+    <input type="checkbox" name="interest[]" value="appli">アプリ開発　
+    <input type="checkbox" name="interest[]" value="personal">個人開発　
+    <input type="checkbox" name="interest[]" value="research">研究開発　
+    <input type="checkbox" name="interest[]" value="output">アウトプット　
+    <input type="checkbox" name="interest[]" value="technicalbook">技術書の執筆　
+    <br><br><br>
+
+    <p><u>＜有名人＞</u></p>
+    <input type="checkbox" name="interest[]" value="hiroyuki">ひろゆき　
+    <input type="checkbox" name="interest[]" value="matsumoto">まつもとゆきひろ　
+    <input type="checkbox" name="interest[]" value="chokudai">高橋直大（chokudai）　
+    <input type="checkbox" name="interest[]" value="chomado">千代田まどか（ちょまど）
+    <input type="checkbox" name="interest[]" value="hujiwara">藤原まりな（無駄作り発明家）　
+    <input type="checkbox" name="interest[]" value="nobori">登大遊（先日情熱大陸に出ていた人）　
+    <br><br><br>
+
+    <p><u>＜企業＞</u></p>
+    <input type="checkbox" name="interest[]" value="abema">abemaTV　
+    <input type="checkbox" name="interest[]" value="crooz">CROOZ株式会社　
+    <input type="checkbox" name="interest[]" value="dmm">DMM.com　
+    <input type="checkbox" name="interest[]" value="freee">freee株式会社　
+    <input type="checkbox" name="interest[]" value="gmo">GMOインターネット　
+    <input type="checkbox" name="interest[]" value="microsoft">Microsoft　
+    <input type="checkbox" name="interest[]" value="ntt">NTT東日本　
+    <input type="checkbox" name="interest[]" value="accenture">アクセンチュア　
+    <input type="checkbox" name="interest[]" value="fixer">株式会社FIXER　
+    <input type="checkbox" name="interest[]" value="fluct">株式会社fluct　
+    <input type="checkbox" name="interest[]" value="lifull">株式会社LIFULL　
+    <input type="checkbox" name="interest[]" value="voyage">株式会社VOYAGE GROUP　
+    <input type="checkbox" name="interest[]" value="yumemi">株式会社ゆめみ　
+    <input type="checkbox" name="interest[]" value="glee">グリー　
+    <input type="checkbox" name="interest[]" value="geisya">芸者東京株式会社　
+    <input type="checkbox" name="interest[]" value="sakura">さくらインターネット　
+    <input type="checkbox" name="interest[]" value="server">サーバーエージェント　
+    <input type="checkbox" name="interest[]" value="dna">ディー・エヌー・エー　
+    <input type="checkbox" name="interest[]" value="persol">パーソルキャリア株式会社　
+    <input type="checkbox" name="interest[]" value="bizz">ビズリーチ　
+    <input type="checkbox" name="interest[]" value="future">フューチャー株式会社　
+    <input type="checkbox" name="interest[]" value="money">マネーフォワード　
+    <input type="checkbox" name="interest[]" value="mixi">ミクシィ　
+    <br><br><br>
+　　 
+    <p style="text-align:center"><button type="submit" class="btn btn-info btn-lg" >登録する</button></p>
+    <% end %>
+     <p><u>＜おすすめの講演会＞</u></p>
+     <%if params[:jobs]%>
+     <%params[:jobs]%>
+     <%params[:jobs].each do |x|%>
+     <p><%=x%></p>
+      <%end%>
+     <%else%>
+    <%end%>
+  </body>
+  <%=%>
+  <footer>
+    <br><br>
+    <p> ※技育祭とは、2021/03/11-13に株式会社サポーターズによって開催される、国内最大の学生向けテックカンファレンスです。</p>
+    <p> ※本サービスは、技育祭に伴って開催されたウインターハッカソンにて、チーム「No matcher」によって制作されました。</p>
+  </footer>
+</html>
