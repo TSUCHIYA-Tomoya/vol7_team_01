@@ -16,85 +16,85 @@
     <br>
     <h1 style="border-left: 15px solid #89c3eb;padding: 7px;background: #bbd7ea;">技育祭マッチングサービスへようこそ！</h1>
     <br>
-    <p>このサービスでは、以下の2つのことができます。</p>
-    <ol type="1">
-      <li style="border-left: 15px solid #c3d825;padding: 7px;background: #e3e5d0;">あなたの興味に沿った技育祭の講演会プログラムを提案します</li>
-      <li style="border-left: 15px solid #c3d825;padding: 7px;background: #e3e5d0;">あなたと興味の近い技育祭参加者のTwitterアカウントを提示します</li><br>
-    </ol>
+    <p>このサービスではこんなことができます。</p>
+    
+      <li style="border-left: 15px solid #c3d825;padding: 7px;background: #e3e5d0;">あなたの興味に沿った技育祭の講演会プログラムを提案します</li><br>
+    
     <br>
     <h1 style="border-left: 15px solid #89c3eb;padding: 7px;background: #bbd7ea;">次のうちから、興味のあるものを選んでください。</h1>
     <%=form_tag("/create") do%>
-    <p><u>＜プログラミングスキルなど＞</u></p>
-    <input type="checkbox" name="interest[]" value="ruby">Ruby　
-    <input type="checkbox" name="interest[]" value="go">Go　
-    <input type="checkbox" name="interest[]" value="github">GitHub　
-    <input type="checkbox" name="interest[]" value="docker">Docker　
-    <input type="checkbox" name="interest[]" value="ai">AI　
-    <input type="checkbox" name="interest[]" value="machinelearning">機械学習　
-    <input type="checkbox" name="interest[]" value="society5.0">Society5.0　
-    <input type="checkbox" name="interest[]" value="manufacturing">モノづくり　
-    <input type="checkbox" name="interest[]" value="largescalesystem">大規模システム　
-    <input type="checkbox" name="interest[]" value="competitiveprogramming">競技プログラミング　
-    <input type="checkbox" name="interest[]" value="supercomputer">スーパーコンピュータ富岳　
-    <input type="checkbox" name="interest[]" value="elasticsearch">分散検索・分析エンジンElasticsearch　
-    <input type="checkbox" name="interest[]" value="serverside">サーバーサイドパフォーマンスチューニング
-    <br><br><br>
-
+       <p><u>＜プログラミングスキルなど＞</u></p>
+    <input type="checkbox" name="interest[]" value="Matzに聞きたい100のこと_〜Rubyの父に聞く、エンジニアのキャリアとスキル〜">Ruby　
+    <input type="checkbox" name="interest[]" value="Goライブコーディング2021">Go　
+    <input type="checkbox" name="interest[]" value="マイクロサービス開発でDockerとGithub_Actionsで工夫したこと">GitHub　
+    <input type="checkbox" name="interest[]" value="マイクロサービス開発でDockerとGithub_Actionsで工夫したこと">Docker　
+    <input type="checkbox" name="interest[]" value="スーパーコンピュータ富岳による10万ノード級のAIとSociety5.0へのインパクト">AI　
+    <input type="checkbox" name="interest[]" value="初心者必見！機械学習エンジニアがあれこれ話します。～基礎から実社会応用まで～">機械学習　
+    <input type="checkbox" name="interest[]" value="スーパーコンピュータ富岳による10万ノード級のAIとSociety5.0へのインパクト">Society5.0　
+    <input type="checkbox" name="interest[]" value="CTOと一緒におしゃべりしましょう！〜ミク談出張版〜テーマ：エンジニアのモノ作り、活躍、評価について">モノづくり　
+    <input type="checkbox" name="interest[]" value="大規模システムの裏側にあるリアル～レガシー脱却への挑戦をエンジニアが教えます～">大規模システム　
+    <input type="checkbox" name="interest[]" value="RedCoderのライブ競プロ～競プロ世界ランカーのアルゴリズム改善～">競技プログラミング　
+    <input type="checkbox" name="interest[]" value="スーパーコンピュータ富岳による10万ノード級のAIとSociety5.0へのインパクト">スーパーコンピュータ富岳　
+    <input type="checkbox" name="interest[]" value="Hello_Elasticsearch!_~_分散検索/分析エンジン_Elasticsearch_の紹介と解説_~">分散検索・分析エンジンElasticsearch　
+    <input type="checkbox" name="interest[]" value="言語にこだわらない_サーバーサイドパフォーマンスチューニング">サーバーサイドパフォーマンスチューニング
+    <br><br>
+​
     <p><u>＜キャリア形成＞</u></p>
-    <input type="checkbox" name="interest[]" value="careerdevelopment">キャリア形成全般　
-    <input type="checkbox" name="interest[]" value="web">Web業界　
-    <input type="checkbox" name="interest[]" value="infla">インフラ業界　
-    <input type="checkbox" name="interest[]" value="game">ゲーム業界　
-    <input type="checkbox" name="interest[]" value="cyber">サイバー技術　
-    <input type="checkbox" name="interest[]" value="appli">アプリ開発　
-    <input type="checkbox" name="interest[]" value="personal">個人開発　
-    <input type="checkbox" name="interest[]" value="research">研究開発　
-    <input type="checkbox" name="interest[]" value="output">アウトプット　
-    <input type="checkbox" name="interest[]" value="technicalbook">技術書の執筆　
-    <br><br><br>
-
+    <input type="checkbox" name="interest[]" value="「オタ駆動開発」で夢を叶える〜煩悩のためにプログラミングを学んだ腐女子のキャリア〜">キャリア形成全般　
+    <input type="checkbox" name="interest[]" value="ある日「Webエンジニアなら、Webサーバーは作れますよね」と言われたら？_~_3つのJVM言語で作って学ぶ,">Web業界　
+    <input type="checkbox" name="interest[]" value="インターネットカンパニーのインフラ環境のリアル">インフラ業界　
+    <input type="checkbox" name="interest[]" value="2年で3億7000万人に遊ばれるスマホゲームの作り方">ゲーム業界　
+    <input type="checkbox" name="interest[]" value="日本のけしからん行政系機関や大企業でけしからんサイバー技術開発を行なうことについて">サイバー技術　
+    <input type="checkbox" name="interest[]" value="業界が求めてるアプリエンジニアとは_〜新卒でAmebaのアプリエンジニアになった二人の歩み方〜">アプリ開発　
+    <input type="checkbox" name="interest[]" value="CTOが語る、学生が個人開発でイケてる成果物を作るコツ">個人開発　
+    <input type="checkbox" name="interest[]" value="競プロスキルでビジネス無双〜誰もやらないのでエンジニアだけど営業から研究開発まで全部やります〜">研究開発　
+    <input type="checkbox" name="interest[]" value="CTOが語る、学生が個人開発でイケてる成果物を作るコツ">アウトプット　
+    <input type="checkbox" name="interest[]" value="技術書執筆のススメ〜Only1なエンジニアになるためのセルフブランディング〜">技術書の執筆　
+    <br><br>
+​
     <p><u>＜有名人＞</u></p>
-    <input type="checkbox" name="interest[]" value="hiroyuki">ひろゆき　
-    <input type="checkbox" name="interest[]" value="matsumoto">まつもとゆきひろ　
-    <input type="checkbox" name="interest[]" value="chokudai">高橋直大（chokudai）　
-    <input type="checkbox" name="interest[]" value="chomado">千代田まどか（ちょまど）
-    <input type="checkbox" name="interest[]" value="hujiwara">藤原まりな（無駄作り発明家）　
-    <input type="checkbox" name="interest[]" value="nobori">登大遊（先日情熱大陸に出ていた人）　
-    <br><br><br>
-
+    <input type="checkbox" name="interest[]" value="ひろゆきだけど何か質問ある？">ひろゆき　
+    <input type="checkbox" name="interest[]" value="Matzに聞きたい100のこと〜Rubyの父に聞く、エンジニアのキャリアとスキル〜">まつもとゆきひろ　
+    <input type="checkbox" name="interest[]" value="RedCoderのライブ競プロ～競プロ世界ランカーのアルゴリズム改善～">高橋直大（chokudai）　
+    <input type="checkbox" name="interest[]" value="「オタ駆動開発」で夢を叶える〜煩悩のためにプログラミングを学んだ腐女子のキャリア〜">千代田まどか（ちょまど）
+    <input type="checkbox" name="interest[]" value="無駄なものをつくって稼ぐ方法">藤原まりな（無駄作り発明家）　
+    <input type="checkbox" name="interest[]" value="日本のけしからん行政系機関や大企業でけしからんサイバー技術開発を行なうことについて">登大遊（先日情熱大陸に出ていた人）　
+    <br><br>
+​
     <p><u>＜企業＞</u></p>
-    <input type="checkbox" name="interest[]" value="abema">abemaTV　
-    <input type="checkbox" name="interest[]" value="crooz">CROOZ株式会社　
-    <input type="checkbox" name="interest[]" value="dmm">DMM.com　
-    <input type="checkbox" name="interest[]" value="freee">freee株式会社　
-    <input type="checkbox" name="interest[]" value="gmo">GMOインターネット　
-    <input type="checkbox" name="interest[]" value="microsoft">Microsoft　
-    <input type="checkbox" name="interest[]" value="ntt">NTT東日本　
-    <input type="checkbox" name="interest[]" value="accenture">アクセンチュア　
-    <input type="checkbox" name="interest[]" value="fixer">株式会社FIXER　
-    <input type="checkbox" name="interest[]" value="fluct">株式会社fluct　
-    <input type="checkbox" name="interest[]" value="lifull">株式会社LIFULL　
-    <input type="checkbox" name="interest[]" value="voyage">株式会社VOYAGE GROUP　
-    <input type="checkbox" name="interest[]" value="yumemi">株式会社ゆめみ　
-    <input type="checkbox" name="interest[]" value="glee">グリー　
-    <input type="checkbox" name="interest[]" value="geisya">芸者東京株式会社　
-    <input type="checkbox" name="interest[]" value="sakura">さくらインターネット　
-    <input type="checkbox" name="interest[]" value="server">サーバーエージェント　
-    <input type="checkbox" name="interest[]" value="dna">ディー・エヌー・エー　
-    <input type="checkbox" name="interest[]" value="persol">パーソルキャリア株式会社　
-    <input type="checkbox" name="interest[]" value="bizz">ビズリーチ　
-    <input type="checkbox" name="interest[]" value="future">フューチャー株式会社　
-    <input type="checkbox" name="interest[]" value="money">マネーフォワード　
-    <input type="checkbox" name="interest[]" value="mixi">ミクシィ　
+    <input type="checkbox" name="interest[]" value="【AbemaTV_CTOが学生向けに初登壇！】開局後5年のABEMAの裏側に広がるエンジニアリングの世界">abemaTV　
+    <input type="checkbox" name="interest[]" value="プログラム未経験から一人前のエンジニアとして活躍できるために学生のうちにやっておくべきこと">CROOZ株式会社　
+    <input type="checkbox" name="interest[]" value="これからのエンジニア／これからのDMM">DMM.com　
+    <input type="checkbox" name="interest[]" value="これからの時代に必要な技術力とは">freee株式会社　
+    <input type="checkbox" name="interest[]" value="ただプログラマでありたい～夢中になれるプログラミングの楽しみ方～">GMOインターネット　
+    <input type="checkbox" name="interest[]" value="「オタ駆動開発」で夢を叶える〜煩悩のためにプログラミングを学んだ腐女子のキャリア〜">Microsoft　
+    <input type="checkbox" name="interest[]" value="日本のけしからん行政系機関や大企業でけしからんサイバー技術開発を行なうことについて">NTT東日本　
+    <input type="checkbox" name="interest[]" value="難攻不落の未踏峰に挑む〜デジタルでアジャイルな銀行をゼロから作れ〜">アクセンチュア　
+    <input type="checkbox" name="interest[]" value="テーマ未定">株式会社FIXER　
+    <input type="checkbox" name="interest[]" value="Goライブコーディング2021">株式会社fluct　
+    <input type="checkbox" name="interest[]" value="テーマ未定">株式会社LIFULL　
+    <input type="checkbox" name="interest[]" value="CTOが語る、学生が個人開発でイケてる成果物を作るコツ">株式会社VOYAGE GROUP　
+    <input type="checkbox" name="interest[]" value="Hello_Elasticsearch!_~_分散検索/分析エンジン_Elasticsearch_の紹介と解説_~">株式会社ゆめみ　
+    <input type="checkbox" name="interest[]" value="エンジニアとしてどう生きていくか〜20年の技術変遷から考える生存戦略〜">グリー　
+    <input type="checkbox" name="interest[]" value="2年で3億7000万人に遊ばれるスマホゲームの作り方">芸者東京株式会社　
+    <input type="checkbox" name="interest[]" value="高専エンジニアの学生起業25年史～起業家という人生の歩み方～">さくらインターネット　
+    <input type="checkbox" name="interest[]" value="言語にこだわらない_サーバーサイドパフォーマンスチューニング">サーバーエージェント　
+    <input type="checkbox" name="interest[]" value="非連続な成長を遂げるエンジニアに共通する7つの特徴">ディー・エヌー・エー　
+    <input type="checkbox" name="interest[]" value="マイクロサービス開発でDockerとGithub_Actionsで工夫したこと">パーソルキャリア株式会社　
+    <input type="checkbox" name="interest[]" value="〜ハイクラス人材向けサービスを運営するビズリーチのCTOが語る〜「市場価値の高いエンジニア」ってどんなエンジニア？">ビズリーチ　
+    <input type="checkbox" name="interest[]" value="大規模システムの裏側にあるリアル～レガシー脱却への挑戦をエンジニアが教えます～">フューチャー株式会社　
+    <input type="checkbox" name="interest[]" value="新技術への向き合い方～幸せなエンジニアライフを送るための4箇条～">マネーフォワード　
+    <input type="checkbox" name="interest[]" value="CTOと一緒におしゃべりしましょう！〜ミク談出張版〜テーマ：エンジニアのモノ作り、活躍、評価について">ミクシィ　
+    <br>　
     <br><br><br>
 　　 
     <p style="text-align:center"><button type="submit" class="btn btn-info btn-lg" >登録する</button></p>
     <% end %>
      <p><u>＜おすすめの講演会＞</u></p>
      <%if params[:jobs]%>
-     <%params[:jobs]%>
-     <%params[:jobs].each do |x|%>
-     <p><%=x%></p>
+     <%params[:jobs].flatten%>
+     <%params[:jobs].flatten.each do |x|%>
+     <p>・<%=x%></p>
       <%end%>
      <%else%>
     <%end%>
